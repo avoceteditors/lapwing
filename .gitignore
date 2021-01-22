@@ -1,52 +1,24 @@
-# Prerequisites
-*.d
+# The directory Mix will write compiled artifacts to.
+/_build/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# If you run "mix test --cover", coverage assets end up here.
+/cover/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# The directory Mix downloads your dependencies sources to.
+/deps/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Where third-party dependencies like ExDoc output generated docs.
+/doc/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Ignore .fetch files in case you like to edit your project deps locally.
+/.fetch
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# If the VM crashes, it generates a dump, let's ignore it too.
+erl_crash.dump
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Also ignore archive artifacts (built via "mix archive.build").
+*.ez
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Ignore package tarball (built via "mix hex.build").
+lapwing-*.tar
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
